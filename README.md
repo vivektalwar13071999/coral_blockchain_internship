@@ -114,7 +114,11 @@ Enter the username and the password with which you registered and an another JSO
 
 
 
+## Search Functionality
 
+To implement the search functionality ```typeahead.js``` library is used. It is fast and fully-featured auto-complete library provided by Twitter for building faster typeaheads.
+
+* Note : The code for search is not working properly, hence the search functionality is incomplete.
 
 
 ## References
