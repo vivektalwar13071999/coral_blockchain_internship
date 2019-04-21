@@ -23,12 +23,12 @@ else show error with appropriate message
 * password varchar(50) Not Null,
 * dateTime Timestamp
 
-* Host Name: db-intern.ciupl0p5utwk.us-east-1.rds.amazonaws.com
-* Port: 3306
-* User Name: dummyUser
-* Password: dummyUser01
-* Db Name: db_intern
-* Table Name: userData
+Host Name: db-intern.ciupl0p5utwk.us-east-1.rds.amazonaws.com
+Port: 3306
+User Name: dummyUser
+Password: dummyUser01
+Db Name: db_intern
+Table Name: userData
 
 
 
