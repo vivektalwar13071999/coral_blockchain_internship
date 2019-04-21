@@ -43,7 +43,7 @@ app.get('/', function(req, res){
   res.render('base.html');
 });
 app.get('/search',function(req,res){
-connection.query('SELECT email FROM users WHERE email LIKE '%gmail.com',
+connection.query('SELECT email FROM users WHERE email LIKE "%gmail.com"',
 function(err, rows, fields) {
 if (err) throw err;
 var data=[];
