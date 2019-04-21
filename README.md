@@ -17,11 +17,11 @@ database along with the current Date and Time
 else show error with appropriate message
 5. MySQL Table struct and connection details;
 a. Table Schema:
-userName varchar(25) NOT Null,
-emailId varchar(50) primary key,
-phoneNo varchar(10) Not Null,
-password varchar(50) Not Null,
-dateTime Timestamp
+     userName varchar(25) NOT Null,
+     emailId varchar(50) primary key,
+     phoneNo varchar(10) Not Null,
+     password varchar(50) Not Null,
+     dateTime Timestamp
 b. Host Name: db-intern.ciupl0p5utwk.us-east-1.rds.amazonaws.com
 c. Port: 3306
 d. User Name: dummyUser
